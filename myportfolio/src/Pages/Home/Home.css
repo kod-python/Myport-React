@@ -1,0 +1,159 @@
+.page-desc .love{
+    width: 15px;
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding-left: 124px;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: relative;
+
+
+}
+
+
+
+.home .nav-icons a{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    
+    
+}
+
+
+
+.home nav ul li{
+visibility: hidden;
+}
+
+.home nav ul li:hover{
+visibility: visible;
+
+}
+
+
+
+.home .home-desc{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.home .page-desc button{
+margin-top: 20px;
+}
+
+.home .page-desc h2{
+    font-size: 4rem;
+    color: white;
+}
+
+.home .page-desc p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.home .page-desc .name{
+    box-shadow: 0px 0px 40px 14px crimson;
+  
+    
+    
+}
+
+
+.home .fa-solid:hover{
+    color: white;
+}
+
+
+
+.home .fa-solid{
+   
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.4rem;
+   background-color: rgb(223, 203, 203);
+    color: grey;
+    transition: 1s  ease ;
+    transition-property: color li;
+    
+  
+
+}
+
+
+.home .nav-icons .fa-home{
+    margin-left: 55px;
+    background-color: crimson;
+    color: white;
+}
+
+
+
+.home .nav-icons .fa-envelope{
+    margin-left: 18px;
+}
+
+
+.home .nav-icons .fa-toolbox{
+    margin-left: 42px;
+}
+
+
+.home .nav-icons .fa-user{
+    margin-left: 60px;
+}
+
+
+
+
+.home .page-desc .button{
+    padding-left: 120px;
+   
+    
+   
+}
+
+.home .page-desc button{
+ 
+    border: 1px solid crimson;
+    border-radius: 30px;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 250px;
+}
+
+.home-nav nav ul{
+
+    list-style-type: none;
+    
+
+}
+
+
+
+
+
+.home .page-desc .fa-download{
+
+    font-size: 1.2rem;
+    margin-left: -50px;
+    background-color: crimson;
+    color: white;
+  
+    
+}
+
+.home .robot{
+    width: 400px;
+}
+
