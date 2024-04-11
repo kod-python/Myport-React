@@ -25,18 +25,6 @@
 }
 
 
-
-.home nav ul li{
-visibility: hidden;
-}
-
-.home nav ul li:hover{
-visibility: visible;
-
-}
-
-
-
 .home .home-desc{
     display: flex;
     align-items: center;
@@ -47,7 +35,13 @@ visibility: visible;
 
 .home .page-desc button{
 margin-top: 20px;
+transition: 1s ;
 }
+
+.home .page-desc button:hover{
+   background-color: crimson;
+    }
+
 
 .home .page-desc h2{
     font-size: 4rem;
@@ -136,8 +130,9 @@ margin-top: 20px;
 
     list-style-type: none;
     
-
 }
+
+
 
 
 

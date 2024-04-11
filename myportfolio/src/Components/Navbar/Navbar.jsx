@@ -1,13 +1,45 @@
-import "./Navbar.css"
+import "./Navbar.css";
+import React, { useState, useEffect } from "react";
 
 
 
 const Nav = () =>{
+    const [currentTime, setCurrentTime] = useState(getCurrentTime());
+    
 
-    const date = new Date();
-    const showTime = date.getHours() 
-        + ':' + date.getMinutes() 
-        + ":" + date.getSeconds();
+ 
+    function getCurrentTime() {
+        const date = new Date();
+        return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+    }
+
+
+  
+
+ 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentTime(getCurrentTime());
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, []);
+
+
+
+    function changeGearColor() {
+        const gearIcon = document.querySelector('.gear-icon');
+        const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16); 
+        gearIcon.style.color = randomColor;
+    }
+
+
+    // const date = new Date();
+    // const showTime = date.getHours() 
+    //     + ':' + date.getMinutes() 
+    //     + ":" + date.getSeconds();
+
+  
 
     return(
         <div className="Nav">
@@ -15,10 +47,14 @@ const Nav = () =>{
 
 
     <header>
-       <a href="#"><i className="fa-solid fa-gear"></i></a> 
+       
+       <a href="#" onMouseEnter={changeGearColor}><i className="fa-solid fa-gear gear-icon"></i></a> 
 
-       <h2>{showTime}</h2>
+       <h2>{currentTime}</h2>
       
+
+
+
   
     </header>
 
