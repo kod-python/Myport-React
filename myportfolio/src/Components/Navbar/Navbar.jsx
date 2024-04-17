@@ -46,17 +46,69 @@ const Nav = () =>{
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
 
-    <header>
-       
-       <a href="#" onMouseEnter={changeGearColor}><i className="fa-solid fa-gear gear-icon"></i></a> 
 
-       <h2>{currentTime}</h2>
+<div className="head-nav">
+<div className="fa-time">
+        <div className="fa">
+       <a href="#" onMouseEnter={changeGearColor}><i className="fa-solid fa-gear gear-icon"></i></a> 
+       </div>
+       
+
+<div className="home-nav">
+
+<nav>
+
+    <ul>
+        <div className="nav-icons">
+        <li><a href="/">Home</a></li>
+        <i className="fa-solid fa-home"></i>
+
+        </div>
+
+        <div className="nav-icons">
+
+        <li><a href="about">About</a></li>
+        <i className="fa-solid fa-user"></i>
+
+        </div>
+       
+       <div className="nav-icons">
+       <li><a href="/Portfolio">Portfolio</a></li>
+        <i className="fa-solid fa-toolbox"></i>
+
+       </div>
+       
+       <div className="nav-icons">
+       <li><a href="Contact">Contact Me</a></li>
+        <i className="fa-solid fa-envelope-open"></i>
+       </div>
+       
+       
+    </ul>
+</nav>
+
+
+
+</div>
+
+
+
+
+
+<div className="time">
+<h2>{currentTime}</h2>
+</div>
+      
+        </div>
+       
+</div>
+
+     
+      
       
 
 
 
-  
-    </header>
 
             
         </div>

@@ -1,9 +1,12 @@
-header .fa-gear{
+
+
+.head-nav .fa-gear{
     color: white;
     font-size: 2rem;
     color: crimson;
     animation: lds-hourglass 1.2s infinite;
 }
+
 
 
 @keyframes lds-hourglass {
@@ -23,16 +26,84 @@ header .fa-gear{
 
 
 
-header h2{
+.head-nav h2{
  color: white;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    gap: 1400px;
-    padding: 2%;
-    margin-top: -100px;
-    position: relative;
+.head-nav{
+  display: flex;
+justify-content: center;
+margin-top: 30px;
+
 }
 
+.head-nav .fa-time{
+    display: flex;
+    align-items: center;
+   /* justify-content: space-between; */
+   /* margin-top: 30px; */
+   position:fixed;
+   gap: 400px;
+   z-index: 1;
+ 
+   ;
+     
+  
+
+
+   
+}
+
+
+
+.home-nav a{
+  color: rgb(118, 23, 207);
+}
+
+.head-nav a:hover{
+  color: white;
+}
+
+/* Nav starts here */
+
+.home-nav nav ul{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 1.4rem;
+
+
+}
+
+.home-nav .nav-icons{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.home-nav .fa-home,
+ .home-nav .fa-user,
+ .home-nav .fa-toolbox,
+ .home-nav .fa-envelope-open
+{
+  background-color: grey;
+  border-radius: 40px;
+  padding: 5px;
+  transition: 1s;
+  font-size: 1rem;
+}
+
+.home-nav .fa-home{
+  background-color: crimson;
+  color: white;
+}
+
+
+
+.home-nav .fa-solid:hover{
+color: white;
+}
+
+
+/* Nav ends here */

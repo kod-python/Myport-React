@@ -24,16 +24,19 @@ const Home = () => {
 
         <div className="home-desc">
           <div className="page-desc">
-            <h2>
+            <h2 className="typewriter">
               Hi i'm <span className="name">Stanley Kodjo</span>{" "}
             </h2>
-            <p>
-              I'm a Software Developer <br />
+            <p >
+              I'm a Software Developer,
+             
+
+              <span>I build aesthethic websites</span> <br />
+              <span>Explore more on my site</span>
               <span>
              {" "}
                 <img src={love} alt="" className="love" />
               </span>{" "}
-              <span>Explore more on my site</span>
             </p>
 
             <div className="button">
@@ -43,54 +46,9 @@ const Home = () => {
               <i className="fa-solid fa-download"></i>
             </div>
           </div>
-
-          <div className="home-nav">
-            <nav>
-              <ul>
-                <div className="nav-icons">
-                  <a href="#">
-                    <div className="ho">
-                      <li>
-                        Home <i className="fa-solid fa-home"></i>
-                      </li>
-                    </div>
-                  </a>
-                </div>
-
-                <div className="nav-icons">
-                  <a href="">
-                    <div className="abou">
-                      <li>
-                        About<i className="fa-solid fa-user"></i>
-                      </li>
-                    </div>
-                  </a>
-                </div>
-
-                <div className="nav-icons">
-                  <a href="#">
-                    <div className="port">
-                      <li>
-                        Portfolio<i className="fa-solid fa-toolbox"></i>
-                      </li>
-                    </div>
-                  </a>
-                </div>
-
-                <div className="nav-icons">
-                  <a href="#">
-                    <div className="cont">
-                      <li>
-                        Contact Me <i className="fa-solid fa-envelope"></i>
-                      </li>
-                    </div>
-                  </a>
-                </div>
-              </ul>
-            </nav>
-          </div>
         </div>
       </div>
+    
     </div>
   );
 };
