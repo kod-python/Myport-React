@@ -33,7 +33,7 @@ const Portfolio =() =>{
      <Navbar />
 
 <div className="infos">
-<h1>MY PORTFOLIO</h1>
+<h1> <span className="folio">MY</span>PORTFOLIO</h1>
 
 <p>Preview of some projects i worked on</p>
 </div>

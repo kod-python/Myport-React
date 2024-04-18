@@ -99,7 +99,12 @@
 
 .about .about-desc h1{
     padding-bottom: 30px;
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+
+.about .about-desc .abt{
+    color: crimson;
 }
 
 

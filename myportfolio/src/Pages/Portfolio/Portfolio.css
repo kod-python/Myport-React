@@ -7,13 +7,15 @@
 }
 
 .portfolio h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .portfolio p{
     font-size: 1.2rem;
 }
-
+.portfolio .folio{
+  color: crimson;
+}
 
 .portfolio .infos{
     margin-top: 80px;
