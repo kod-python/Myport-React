@@ -36,7 +36,7 @@ const About = () =>{
 
 <div className="skills">
 
-<h1>MY SKILLS</h1>
+<h1> <span className="my">MY</span>SKILLS</h1>
 
 <h2>Front-end tools</h2>
 
@@ -61,7 +61,7 @@ const About = () =>{
 </div>
 </div>
 
-<div className="scrollbar"></div>
+
 
 </div>
 

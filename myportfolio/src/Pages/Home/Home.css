@@ -49,10 +49,10 @@ transition: 1s ;
 }
 
 /* Animation */
-.typewriter{
+/* .typewriter{
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
-  }
+  } */
   @keyframes typewriter{
     from{width: 0;}
     to{width: 10em;}
@@ -66,13 +66,13 @@ transition: 1s ;
 /* Animations second */
 
 
-/* The typing effect */
+
 @keyframes typing {
 from { width: 0 }
 to { width: 100% }
 }
 
-/* The typewriter cursor effect */
+
 @keyframes blink-caret {
 from, to { border-color: transparent }
 50% { border-color: orange }
@@ -84,13 +84,18 @@ from, to { border-color: transparent }
 .home .page-desc p{
     font-size: 1.5rem;
     color: white;
-    animation: 
+
+    margin-top: 20px;
+    /* animation: 
        typing 3.5s steps(30, end),
-         blink-caret .5s step-end infinite;
+         blink-caret .5s step-end infinite; */
 }
 
 .home .page-desc .name{
     box-shadow: 0px 0px 40px 14px crimson;
+    background-color: rgb(187, 100, 118);
+    border-radius: 10px;
+    opacity: 0.8;
   
     
     

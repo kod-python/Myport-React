@@ -53,8 +53,8 @@ const Portfolio =() =>{
     <img src={furniture} alt="img" className="image"/>
    
 <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href="https://kod-python.github.io/furniture/"><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href="https://github.com/kod-python/furniture"><img src={git} alt="" className="gi" target="Blank" /></a>
 
 
     <div className="overlay-text">
@@ -77,8 +77,8 @@ const Portfolio =() =>{
     <img src={cofe} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href="https://kod-python.github.io/cofeshop/"><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href="https://github.com/kod-python/cofeshop"><img src={git} alt="" className="gi" target="Blank" /></a>
 
     <div className="overlay-text">
     <h2>My Project Source</h2>
@@ -109,8 +109,8 @@ const Portfolio =() =>{
     <img src={payment} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi" target="Blank" /></a>
 
 
     <div className="overlay-text">
@@ -131,8 +131,8 @@ const Portfolio =() =>{
     <img src={build} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi" target="Blank"/></a>
 
 
     <div className="overlay-text">
@@ -165,8 +165,8 @@ const Portfolio =() =>{
     <img src={question} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi" target="Blank"/></a>
 
 
     <div className="overlay-text">
@@ -189,8 +189,8 @@ const Portfolio =() =>{
     <img src={mini} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href="https://kod-python.github.io/mini-signup" target="Blank"><i className="fa-solid fa-eye"></i></a>
+    <a href="https://github.com/kod-python/mini-signup" target="Blank"><img src={git} alt="" className="gi"/></a>
 
 
 
@@ -226,8 +226,8 @@ const Portfolio =() =>{
     <img src={resume} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi"  target="Blank"  /></a>
 
 
     <div className="overlay-text">
@@ -249,8 +249,8 @@ const Portfolio =() =>{
     <img src={react1} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi" target="Blank" /></a>
 
     <div className="overlay-text">
     <h2>My Project Source</h2>
@@ -283,8 +283,8 @@ const Portfolio =() =>{
     <img src={voting} alt="img" className="image" />
 
     <div className="overlay">
-    <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><img src={git} alt="" className="gi"/></a>
+    <a href=""><i className="fa-solid fa-eye" target="Blank"></i></a>
+    <a href=""><img src={git} alt="" className="gi" target="Blank" /></a>
   
 
 

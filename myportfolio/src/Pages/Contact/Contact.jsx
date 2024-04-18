@@ -39,17 +39,17 @@ Stanley Kodjo
 
 
 
-<p><i className="fa-solid fa-user"></i>Location <br />
+<p><i className="fa-solid fa-location-dot"></i>Location <br />
 Accra,Ghana
 </p>
 
 
-<p><i className="fa-solid fa-user"></i>Email <br />
+<p><i className="fa-solid fa-envelope"></i>Email <br />
 koddeviper@gmail.com
 </p>
 
 
-<p><i className="fa-solid fa-user"></i>Number <br />
+<p><i className="fa-solid fa-phone"></i>Number <br />
 0548171732
 </p>
 

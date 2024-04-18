@@ -58,10 +58,13 @@ margin-top: 30px;
 
 .home-nav a{
   color: rgb(118, 23, 207);
+  
 }
 
 .head-nav a:hover{
   color: white;
+  text-decoration: underline;
+  
 }
 
 /* Nav starts here */
@@ -87,16 +90,17 @@ margin-top: 30px;
  .home-nav .fa-toolbox,
  .home-nav .fa-envelope-open
 {
-  background-color: grey;
-  border-radius: 40px;
+
+ 
   padding: 5px;
   transition: 1s;
   font-size: 1rem;
+  color: grey;
 }
 
 .home-nav .fa-home{
-  background-color: crimson;
-  color: white;
+  
+  /* color: white; */
 }
 
 

@@ -2,6 +2,7 @@ import "./Home.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import love from "../../images/love.png";
 import robot from "../../images/robot.png";
+import update from "../../Document/update_cv.pdf"
 import React, { useState, useEffect } from "react";
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
     <div className="Home">
       <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" download
       />
 
       <Navbar />
@@ -40,7 +41,7 @@ const Home = () => {
             </p>
 
             <div className="button">
-              <a href="#">
+              <a href={update}>
                 <button type="submit">View Resume </button>
               </a>
               <i className="fa-solid fa-download"></i>
