@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -60,26 +61,52 @@ const Nav = () =>{
 
     <ul>
         <div className="nav-icons">
-        <li><a href="/">Home</a></li>
+
+        {/* <li><a href="/">Home</a></li> */}
+
+<li>
+
+    <Link to="/">Home</Link>
+</li>
+
         <i className="fa-solid fa-home"></i>
 
         </div>
 
         <div className="nav-icons">
 
-        <li><a href="about">About</a></li>
+        {/* <li><a href="about">About</a></li> */}
+
+<li>
+
+    <Link to="/About">About</Link>
+</li>
+
         <i className="fa-solid fa-user"></i>
 
         </div>
        
        <div className="nav-icons">
-       <li><a href="/Portfolio">Portfolio</a></li>
+       {/* <li><a href="/Portfolio">Portfolio</a></li> */}
+
+
+<li>
+
+    <Link to="/Portfolio">Portfolio</Link>
+</li>
+
         <i className="fa-solid fa-toolbox"></i>
 
        </div>
        
        <div className="nav-icons">
-       <li><a href="Contact">Contact Me</a></li>
+       {/* <li><a href="Contact">Contact Me</a></li> */}
+
+
+   <li>
+    
+    <Link to="/Contact">Contact</Link>
+    </li>    
         <i className="fa-solid fa-envelope-open"></i>
        </div>
        
