@@ -84,7 +84,7 @@
 
 
 
-  .fa-eye, .fa-user-circle {
+  .fa-eye, .gi {
     
     color: black;
     font-size: 40px;
@@ -113,10 +113,15 @@
   }
 
 
+.gi{
+  width: 40px;
+}
 
-
- .fa-user-circle:hover{
+ .gi:hover{
     color: white;
+    background-color: aliceblue;
+    border-radius: 30px;
+    
   }
 
 

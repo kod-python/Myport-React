@@ -15,6 +15,7 @@ import css from "../../images/css.png"
 import html from "../../images/html.png"
 import java from "../../images/script.png"
 import react from "../../images/react.png"
+import git from "../../images/githubhub.png"
 
 
 
@@ -53,7 +54,7 @@ const Portfolio =() =>{
    
 <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
     <div className="overlay-text">
@@ -77,7 +78,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
     <div className="overlay-text">
     <h2>My Project Source</h2>
@@ -109,7 +110,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
     <div className="overlay-text">
@@ -131,7 +132,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
     <div className="overlay-text">
@@ -165,7 +166,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
     <div className="overlay-text">
@@ -189,7 +190,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
 
@@ -226,7 +227,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
 
     <div className="overlay-text">
@@ -249,7 +250,7 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
 
     <div className="overlay-text">
     <h2>My Project Source</h2>
@@ -283,7 +284,8 @@ const Portfolio =() =>{
 
     <div className="overlay">
     <a href=""><i className="fa-solid fa-eye"></i></a>
-    <a href=""><i className="fa-solid fa-user-circle"></i></a>
+    <a href=""><img src={git} alt="" className="gi"/></a>
+  
 
 
     <div className="overlay-text">
